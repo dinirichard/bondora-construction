@@ -1,0 +1,27 @@
+
+  .example-section {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    height: 60px;
+  }
+
+  .pizza-topping__icon {
+    background: #e6e6e6 no-repeat center center;
+    background-size: 35px;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+  }
+
+  .pizza-topping-active {
+    background: orange;
+    color: #fff;
+    font-weight: 500;
+  }
+
+  .example-form-field {
+    width: 100px;
+  }

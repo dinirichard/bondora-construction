@@ -1,0 +1,41 @@
+<div class="is-centered">
+  <h2 class="title is-2 is-centered">Select available products to rent</h2>
+  <form #userForm="ngForm" (ngSubmit)="onSubmit()" class="is-centered">
+
+    <div *ngFor="let product of inventories; let i = index;" ngModelGroup="invent{{i}}"
+      class="is-centered columns is-desktop">
+
+      <div class="column is-one-third">
+
+        <label class="product-select" [class.pizza-topping-active]="">
+          <mat-checkbox name="{{product.name}}" [value]="product.selected" (change)="updateTopping(product)"
+            (click)="formBool()" [checked]="product.selected" [ngModel]="product.selected">{{product.name}}
+            ({{product.type}})</mat-checkbox>
+
+        </label>
+
+
+      </div>
+      <div class="column is-one-fifth">
+
+        <mat-form-field class="example-form-field">
+          <mat-label>Days </mat-label>
+          <input matInput type="number" class="input is-one-fifth"
+            pattern="(-)?((0?)|[1-9].*)(\.\d+)|(-)?([1-9].*)|(-)?(0?)(\.)(\d)" [errorStateMatcher]="matcher"
+            [disabled]="!product.selected" name="{{product.id}}.days" [(ngModel)]="product.rentDays" required>
+
+
+        </mat-form-field>
+
+      </div>
+    </div>
+
+    <div class="is-centered">
+      <button class="button is-primary is-rounded is-centered" type="submit"
+        [disabled]="!formCheckbool || userForm.form.invalid">Submit
+        Application</button>
+    </div>
+
+  </form>
+
+</div>

@@ -1,0 +1,12 @@
+C:\Users\Dini Home\source\repos\BondoraAngular1\DataLibrary\bin\Debug\DataLibrary.dll
+C:\Users\Dini Home\source\repos\BondoraAngular1\DataLibrary\bin\Debug\DataLibrary.pdb
+C:\Users\Dini Home\source\repos\BondoraAngular1\DataLibrary\bin\Debug\Dapper.dll
+C:\Users\Dini Home\source\repos\BondoraAngular1\DataLibrary\bin\Debug\System.Data.SQLite.dll
+C:\Users\Dini Home\source\repos\BondoraAngular1\DataLibrary\bin\Debug\Dapper.xml
+C:\Users\Dini Home\source\repos\BondoraAngular1\DataLibrary\bin\Debug\System.Data.SQLite.xml
+C:\Users\Dini Home\source\repos\BondoraAngular1\DataLibrary\bin\Debug\System.Data.SQLite.dll.config
+C:\Users\Dini Home\source\repos\BondoraAngular1\DataLibrary\obj\Debug\DataLibrary.csprojAssemblyReference.cache
+C:\Users\Dini Home\source\repos\BondoraAngular1\DataLibrary\obj\Debug\DataLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Dini Home\source\repos\BondoraAngular1\DataLibrary\obj\Debug\DataLibrary.csproj.CopyComplete
+C:\Users\Dini Home\source\repos\BondoraAngular1\DataLibrary\obj\Debug\DataLibrary.dll
+C:\Users\Dini Home\source\repos\BondoraAngular1\DataLibrary\obj\Debug\DataLibrary.pdb

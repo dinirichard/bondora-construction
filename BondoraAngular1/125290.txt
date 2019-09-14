@@ -1,0 +1,11 @@
+	 INVOICE 	 #125290 
+Bonus Point = 4. 
+
+\t---------Products Rented---------
+
+Caterpillar bulldozer          5 days             $400.00 
+KamAZ truck          5 days             $340.00 
+Bosch jackhammer          7 days             $220.00 
+
+
+<b>	 Total 	 : 	$960.00</b>
